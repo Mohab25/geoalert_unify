@@ -1,0 +1,191 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="Corder">PCRL</MDI>
+  </Metadata>
+  <Metadata domain="xml:gml.root-instance" format="xml">
+    <gml:FeatureCollection xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.1.1/profiles/gmlJP2Profile/1.0.0/gmlJP2Profile.xsd">
+      <gml:boundedBy>
+        <gml:Null>withheld</gml:Null>
+      </gml:boundedBy>
+      <gml:featureMember>
+        <gml:FeatureCollection>
+          <gml:featureMember>
+            <gml:RectifiedGridCoverage dimension="2" gml:id="RGC0001">
+              <gml:rectifiedGridDomain>
+                <gml:RectifiedGrid dimension="2">
+                  <gml:limits>
+                    <gml:GridEnvelope>
+                      <gml:low>0 0</gml:low>
+                      <gml:high>1598 1440</gml:high>
+                    </gml:GridEnvelope>
+                  </gml:limits>
+                  <gml:axisName>x</gml:axisName>
+                  <gml:axisName>y</gml:axisName>
+                  <gml:origin>
+                    <gml:Point gml:id="P0001" srsName="gmljp2://xml/CRSDictionary.gml#ogrcrs1">
+                      <gml:pos>528665 6841595</gml:pos>
+                    </gml:Point>
+                  </gml:origin>
+                  <gml:offsetVector srsName="gmljp2://xml/CRSDictionary.gml#ogrcrs1">10 0</gml:offsetVector>
+                  <gml:offsetVector srsName="gmljp2://xml/CRSDictionary.gml#ogrcrs1">0 -10</gml:offsetVector>
+                </gml:RectifiedGrid>
+              </gml:rectifiedGridDomain>
+              <gml:rangeSet>
+                <gml:File>
+                  <gml:fileName>gmljp2://codestream/0</gml:fileName>
+                  <gml:fileStructure>Record Interleaved</gml:fileStructure>
+                </gml:File>
+              </gml:rangeSet>
+            </gml:RectifiedGridCoverage>
+          </gml:featureMember>
+        </gml:FeatureCollection>
+      </gml:featureMember>
+    </gml:FeatureCollection>
+  </Metadata>
+  <Metadata domain="xml:CRSDictionary.gml" format="xml">
+    <gml:Dictionary gml:id="CRSU1" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <gml:dictionaryEntry>
+        <gml:ProjectedCRS gml:id="ogrcrs1">
+          <gml:srsName>WGS_1984_UTM_zone_38N</gml:srsName>
+          <gml:baseCRS>
+            <gml:GeographicCRS gml:id="ogrcrs2">
+              <gml:srsName>GCS_WGS_1984</gml:srsName>
+              <gml:usesEllipsoidalCS>
+                <gml:EllipsoidalCS gml:id="ogrcrs3">
+                  <gml:csName>ellipsoidal</gml:csName>
+                  <gml:csID>
+                    <gml:name gml:codeSpace="urn:ogc:def:cs:EPSG::">6402</gml:name>
+                  </gml:csID>
+                  <gml:usesAxis>
+                    <gml:CoordinateSystemAxis gml:id="ogrcrs4" gml:uom="urn:ogc:def:uom:EPSG::9102">
+                      <gml:name>Geodetic latitude</gml:name>
+                      <gml:axisID>
+                        <gml:name gml:codeSpace="urn:ogc:def:axis:EPSG::">9901</gml:name>
+                      </gml:axisID>
+                      <gml:axisAbbrev>Lat</gml:axisAbbrev>
+                      <gml:axisDirection>north</gml:axisDirection>
+                    </gml:CoordinateSystemAxis>
+                  </gml:usesAxis>
+                  <gml:usesAxis>
+                    <gml:CoordinateSystemAxis gml:id="ogrcrs5" gml:uom="urn:ogc:def:uom:EPSG::9102">
+                      <gml:name>Geodetic longitude</gml:name>
+                      <gml:axisID>
+                        <gml:name gml:codeSpace="urn:ogc:def:axis:EPSG::">9902</gml:name>
+                      </gml:axisID>
+                      <gml:axisAbbrev>Lon</gml:axisAbbrev>
+                      <gml:axisDirection>east</gml:axisDirection>
+                    </gml:CoordinateSystemAxis>
+                  </gml:usesAxis>
+                </gml:EllipsoidalCS>
+              </gml:usesEllipsoidalCS>
+              <gml:usesGeodeticDatum>
+                <gml:GeodeticDatum gml:id="ogrcrs6">
+                  <gml:datumName>WGS_1984</gml:datumName>
+                  <gml:usesPrimeMeridian>
+                    <gml:PrimeMeridian gml:id="ogrcrs7">
+                      <gml:meridianName>Greenwich</gml:meridianName>
+                      <gml:greenwichLongitude>
+                        <gml:angle gml:uom="urn:ogc:def:uom:EPSG::9102">0</gml:angle>
+                      </gml:greenwichLongitude>
+                    </gml:PrimeMeridian>
+                  </gml:usesPrimeMeridian>
+                  <gml:usesEllipsoid>
+                    <gml:Ellipsoid gml:id="ogrcrs8">
+                      <gml:ellipsoidName>WGS_1984</gml:ellipsoidName>
+                      <gml:semiMajorAxis gml:uom="urn:ogc:def:uom:EPSG::9001">6378137.0</gml:semiMajorAxis>
+                      <gml:secondDefiningParameter>
+                        <gml:inverseFlattening gml:uom="urn:ogc:def:uom:EPSG::9201">298.257223563</gml:inverseFlattening>
+                      </gml:secondDefiningParameter>
+                    </gml:Ellipsoid>
+                  </gml:usesEllipsoid>
+                </gml:GeodeticDatum>
+              </gml:usesGeodeticDatum>
+            </gml:GeographicCRS>
+          </gml:baseCRS>
+          <gml:definedByConversion>
+            <gml:Conversion gml:id="ogrcrs9">
+              <gml:usesMethod xlink:href="urn:ogc:def:method:EPSG::9807" />
+              <gml:usesParameterValue>
+                <gml:value gml:uom="urn:ogc:def:uom:EPSG::9102">0</gml:value>
+                <gml:valueOfParameter xlink:href="urn:ogc:def:parameter:EPSG::8801" />
+              </gml:usesParameterValue>
+              <gml:usesParameterValue>
+                <gml:value gml:uom="urn:ogc:def:uom:EPSG::9102">45</gml:value>
+                <gml:valueOfParameter xlink:href="urn:ogc:def:parameter:EPSG::8802" />
+              </gml:usesParameterValue>
+              <gml:usesParameterValue>
+                <gml:value gml:uom="urn:ogc:def:uom:EPSG::9001">0.9996</gml:value>
+                <gml:valueOfParameter xlink:href="urn:ogc:def:parameter:EPSG::8805" />
+              </gml:usesParameterValue>
+              <gml:usesParameterValue>
+                <gml:value gml:uom="urn:ogc:def:uom:EPSG::9001">500000</gml:value>
+                <gml:valueOfParameter xlink:href="urn:ogc:def:parameter:EPSG::8806" />
+              </gml:usesParameterValue>
+              <gml:usesParameterValue>
+                <gml:value gml:uom="urn:ogc:def:uom:EPSG::9001">0</gml:value>
+                <gml:valueOfParameter xlink:href="urn:ogc:def:parameter:EPSG::8807" />
+              </gml:usesParameterValue>
+            </gml:Conversion>
+          </gml:definedByConversion>
+          <gml:usesCartesianCS>
+            <gml:CartesianCS gml:id="ogrcrs10">
+              <gml:csName>Cartesian</gml:csName>
+              <gml:csID>
+                <gml:name gml:codeSpace="urn:ogc:def:cs:EPSG::">4400</gml:name>
+              </gml:csID>
+              <gml:usesAxis>
+                <gml:CoordinateSystemAxis gml:id="ogrcrs11" gml:uom="urn:ogc:def:uom:EPSG::9001">
+                  <gml:name>Easting</gml:name>
+                  <gml:axisID>
+                    <gml:name gml:codeSpace="urn:ogc:def:axis:EPSG::">9906</gml:name>
+                  </gml:axisID>
+                  <gml:axisAbbrev>E</gml:axisAbbrev>
+                  <gml:axisDirection>east</gml:axisDirection>
+                </gml:CoordinateSystemAxis>
+              </gml:usesAxis>
+              <gml:usesAxis>
+                <gml:CoordinateSystemAxis gml:id="ogrcrs12" gml:uom="urn:ogc:def:uom:EPSG::9001">
+                  <gml:name>Northing</gml:name>
+                  <gml:axisID>
+                    <gml:name gml:codeSpace="urn:ogc:def:axis:EPSG::">9907</gml:name>
+                  </gml:axisID>
+                  <gml:axisAbbrev>N</gml:axisAbbrev>
+                  <gml:axisDirection>north</gml:axisDirection>
+                </gml:CoordinateSystemAxis>
+              </gml:usesAxis>
+            </gml:CartesianCS>
+          </gml:usesCartesianCS>
+        </gml:ProjectedCRS>
+      </gml:dictionaryEntry>
+    </gml:Dictionary>
+  </Metadata>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <NoDataValue>6.55360000000000E+004</NoDataValue>
+    <Histograms>
+      <HistItem>
+        <HistMin>5</HistMin>
+        <HistMax>7540</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>255|21823|136421|236060|218129|254630|265921|242492|175088|130449|95030|70357|56206|45160|40876|36271|36221|35234|34733|31949|29424|24646|19755|15230|11045|8605|6245|5232|3859|3298|2772|2172|1951|1316|938|541|393|315|288|206|184|190|169|154|127|128|135|124|81|117|92|92|68|106|81|59|60|55|34|49|34|48|46|35|33|41|37|36|25|27|21|19|15|22|16|19|6|4|3|1|2|5|1|2|1|1|0|0|1|1|0|2|1|2|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JP2000</MDI>
+    </Metadata>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">7540</MDI>
+      <MDI key="STATISTICS_MEAN">262.08438132959</MDI>
+      <MDI key="STATISTICS_STDDEV">171.29467676427</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_COVARIANCES">29341.8662877749</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
