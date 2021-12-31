@@ -5,16 +5,27 @@ to 8 bits.
 
 # Installation
 
-used as a python package 
+used as a python package, or as a microservice with flask api endpoint in place. 
 
 # Usage
 
 the package API defines only one method "get_rgb", used to construct the rgb image from 
-three bands 
+three bands.
+
+if the package is used as a microservice, flask endpoint can used as:
+
+~~~ bash
+-X POST -F b1=@img1.jp2 -F b2=@img2.jp2 -F b3=@img3.jp2 http://hostname/get_rgb/
+~~~
+
+if the package is used standalone, import get_rgb module.
+
 ~~~py
 from geoalert_unify import get_rgb
 rgb(b1_path, b2_path, b3_path, output_file_path, output_file_name)
 ~~~
+
+
 
 # Implementation
 
